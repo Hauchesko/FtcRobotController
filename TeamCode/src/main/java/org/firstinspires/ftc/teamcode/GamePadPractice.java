@@ -15,7 +15,7 @@ public class GamePadPractice extends OpMode {
 
     @Override
     public void loop() {
-        // выполняется 50 раз в секунду
+        // run 50 time per sec
         double speedForward = -gamepad1.left_stick_y / 2.0;
         double diffX = gamepad1.left_stick_x - gamepad1.left_stick_x;
         double sumTriggers = gamepad1.left_trigger + gamepad1.right_trigger;
