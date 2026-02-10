@@ -27,13 +27,13 @@ public class TeleOP extends LinearOpMode {
 
 
     // ===== Серво =====
-    double maxServoGatePosition = 1.0;
+    double maxServoGatePosition = 0.33;
     double minServoGatePosition = 0;
 
-    double maxServoDegreePosition = 0.8;
-    double minServoDegreePosition = 0;
-    double currentServoGatePosition = 0.5;
-    double currentServoDegreePosition = 0;
+    double maxServoDegreePosition = 1.0;
+    double minServoDegreePosition = 0.64;
+    double currentServoGatePosition = 0;
+    double currentServoDegreePosition = 1.0;
 
 
     boolean lastDpadUp = false;
